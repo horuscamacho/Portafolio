@@ -1,15 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;700&family=Roboto+Slab:wght@400;700&family=Roboto:wght@400;500;700;900&display=swap");
 
-body {
-  margin: 0;
-  padding: 0;
-  position: fixed;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  font-family: 'Roboto Mono', monospace; /*Por que todo el texto estará en el body utilizando este estilo*/
-}
 
 a {
   text-decoration: none;
@@ -94,7 +83,7 @@ nav .profile-link a {
   /*Lo vamos a dividir en 3 pero la fr2 lo divideremos en 4*/
   grid-template-columns: 1fr 4fr 1fr;
   height: 100%;
-  /* background-image: url("/assets/img/Cover.png"); */
+  background-image: url("./assets/Cover.png");
   background-position: center;
   /*Para que no se mueva y se quede en el centro*/
   background-repeat: no-repeat;
