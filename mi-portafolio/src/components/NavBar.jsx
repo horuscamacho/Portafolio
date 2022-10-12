@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from '../assets/Logo-negro.png'
+import logo from '../assets/milogo.svg'
 
 const NavBar = () => {
   return (
