@@ -4,10 +4,10 @@ import MainLanding from './Landing/MainLanding'
 
 const Landing = () => {
   return (
-    <>
-        <Header />
+    <div className='boody-home'>
+         <Header />
         <MainLanding />
-    </>
+    </div>
   )
 }
 
