@@ -1,5 +1,5 @@
 import React from 'react'
-import img from '../../../assets/main-news-img.png'
+import img from '../../../assets/main-portafolio.png'
 const SectionOne = () => {
   return (
     <section className='grid-container blogs-news-container'>
@@ -10,7 +10,7 @@ const SectionOne = () => {
             </div>
             <div className='blogs-news-info-container'>
               <h2>Habilidades</h2>
-              <p>En el Bootcamp de Henry adquirí habilidades como Full Stack Web Developer, entre las cuales destacan tecnologías como React, Redux, Express, HTML, Tailwind, CSS, JavaScript, entre otras.</p>
+              <p>En el Bootcamp de Henry adquirí habilidades como Full Stack Web Developer, entre las cuales destacan el uso de tecnologías como React, Redux, Express, HTML, Tailwind, CSS, JavaScript, entre otras.</p>
               {/* <a class="blogs-button" href="/">Leer Más</a> */}
             </div>
             
