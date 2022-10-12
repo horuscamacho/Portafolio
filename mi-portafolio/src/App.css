@@ -34,7 +34,7 @@ header .header-icons-container {
 
 header .header-icons-container .icons {
   /*Es el div que lleva todos nuestros íconos de RS*/
-  width: 160px;
+  width: 120px;
   height: auto;
   /*Para que sea tan alto como su padre que es el contenedor*/
   display: flex;
@@ -49,6 +49,7 @@ header .header-icons-container .icons {
   justify-self: end;
   margin-right: 50px;
   margin-top: 10px;
+
 }
 
 
@@ -321,7 +322,7 @@ padding: 0 5px;
       grid-row: 3;
   }
   .blogs-posts-container .post-container {
-      max-width: 45%;
+      max-width: 48%;
   }
   .proyects-main-container {
       grid-template-columns: 1fr 1fr;
@@ -334,6 +335,23 @@ padding: 0 5px;
       display: flex;
       justify-content: center;
   }
+  .blogs-posts-container {
+    padding: 0 30px 30px;
+  }
+
+  .home-main {
+    display: grid;
+    /*Lo vamos a dividir en 3 pero la fr2 lo divideremos en 4*/
+    grid-template-columns: 1fr 4fr 1fr;
+    height: 100%;
+    background-image: url("./assets/coverMobile.png");
+    background-position: center;
+    /*Para que no se mueva y se quede en el centro*/
+    background-repeat: no-repeat;
+    /*Para que no se repita*/
+    background-size: cover;
+    /*Para que se ajuste al tamaño de la pantalla*/
+  }
 }
 
 @media (max-width: 600px) {
@@ -343,6 +361,32 @@ padding: 0 5px;
   .proyects-main-container {
       grid-template-columns: 1fr;
       grid-template-rows: 3fr;
+  }
+
+  nav .nav-logo-container {
+    margin-left: 20px;
+  }
+
+  .home-main {
+    display: grid;
+    /*Lo vamos a dividir en 3 pero la fr2 lo divideremos en 4*/
+    grid-template-columns: 1fr 4fr 1fr;
+    height: 100%;
+    background-image: url("./assets/coverMobile.png");
+    background-position: center;
+    /*Para que no se mueva y se quede en el centro*/
+    background-repeat: no-repeat;
+    /*Para que no se repita*/
+    background-size: cover;
+    /*Para que se ajuste al tamaño de la pantalla*/
+  }
+
+  .home-main-text {
+    font-size: 16px;
+    letter-spacing: 0;
+    color: white;
+    text-align: center;
+    font-family: 'Roboto mono', monospace;
   }
 }
 

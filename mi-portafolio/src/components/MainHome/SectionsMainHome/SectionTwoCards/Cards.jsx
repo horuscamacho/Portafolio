@@ -1,11 +1,14 @@
 import React from 'react'
 import img from '../../../../assets/post-1.png'
-const Cards = () => {
+const Cards = (datos) => {
+  const curso = datos.datos.curso
+  const proyecto = datos.datos.proyecto
+  const image = datos.datos.link
   return (
     <article className='post-container'>
-        <img src={img} alt="" />
-        <p>Titulo del post</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil placeat velit ducimus sunt cupiditate.</p>
+        <img src={image ? image : img} alt="" />
+        <p>{curso ? curso : proyecto}</p>
+        <p>{datos.datos.descripcion}</p>
         <a className="blogs-button" href="/">Leer más</a>
     </article>
   )

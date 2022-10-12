@@ -3,7 +3,7 @@ import React from 'react'
 const Footer = () => {
   return (
     <footer>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <p>Horus Sinhue Camacho Desarrollador Web Full Stack 2022</p>
     </footer>
   )
 }

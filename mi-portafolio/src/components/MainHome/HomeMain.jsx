@@ -1,14 +1,17 @@
 import React from 'react'
 import SectionOne from './SectionsMainHome/SectionOne'
 import SectionTwo from './SectionsMainHome/SectionTwo'
-
+import {proyectos} from './proyects_certificates'
+import {cursos} from './proyects_certificates'
 const HomeMain = () => {
-  const tipo = ["Proyectos", "Cursos y Certificaciones"]
+
+
+
   return (
     <main className='blogs-main'>
         <SectionOne />
-        <SectionTwo tipo={tipo[0]} />
-        <SectionTwo tipo={tipo[1]} />
+        <SectionTwo  data={proyectos}/>
+        <SectionTwo data={cursos} />
     </main>
   )
 }
