@@ -5,6 +5,7 @@ import { BrowserRouter,
   Route,} from "react-router-dom";
 import Landing from "./components/Landing";
 import Home from "./components/Home";
+import Profile from "./components/Profile";
 
 const App = () => {
   return (
@@ -12,6 +13,7 @@ const App = () => {
       <Routes>
       <Route path="/" element={<Landing />} />
       <Route path="/portafolio" element={<Home />} />
+      <Route path="/profile" element={<Profile />} />
       </Routes>
     </BrowserRouter>
   );
