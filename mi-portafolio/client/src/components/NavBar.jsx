@@ -8,7 +8,7 @@ const NavBar = () => {
             <a href='/'><img src={logo} alt="Logo del portafolio"/></a>
         </section>
         <section className='profile-link'>
-            <a href='/perfil'>Sobre mí</a>
+            <a href='/profile'>Sobre mí</a>
         </section>
     </nav>
   )
