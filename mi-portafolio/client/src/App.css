@@ -492,6 +492,19 @@ padding: 0 5px;
     background-size: cover;
     /*Para que se ajuste al tamaño de la pantalla*/
   }
+
+  .contact{
+    padding: 50px;
+  }
+  .container{
+    flex-direction: column;
+  }
+  .container .contactInfo {
+    margin-bottom: 40px;
+  }
+  .contact .contactInfo .contactForm {
+    width: 100%;
+  }
 }
 
 @media (max-width: 600px) {
