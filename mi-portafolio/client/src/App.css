@@ -136,7 +136,7 @@ nav .profile-link a {
 .container .contactInfo .box .icon {
   min-width: 60px;
   height: 60px;
-  background: #47cfac;
+  background: #15aad0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -155,7 +155,7 @@ nav .profile-link a {
 
 .container .contactInfo .box .text h3 {
   font-weight: 500;
-  color: #47cfac;
+  color: #15aad0;
 }
 
 .contactForm {
