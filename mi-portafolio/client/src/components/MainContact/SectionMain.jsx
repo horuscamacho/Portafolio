@@ -11,31 +11,6 @@ const SectionMain = () => {
           </p>
         </div>
         <div className="container">
-          <div className="contactInfo">
-            <div className="box">
-              <div className="icon">
-                <i className="fa fa-map-marker" aria-hidden="true"></i>
-              </div>
-              <div className="text">
-                <h3>Ubicación</h3>
-                <p>Pachuca, Hidalgo; México.</p>
-              </div>
-            </div>
-            <div className="box">
-                <div className="icon"><i className="fa fa-phone" aria-hidden="true"></i></div>
-                <div className="text">
-                    <h3>Teléfono</h3>
-                    <p>+52 554-740-1642</p>
-                </div>
-            </div>
-            <div className="box">
-                <div className="icon"><i className="fa fa-envelope-o" aria-hidden="true"></i></div>
-                <div className="text">
-                    <h3>Email</h3>
-                    <p>camachohorus@gmail.com</p>
-                </div>
-            </div>
-          </div>
           <div className="contactForm">
             <form>
                 <h2>Envíame un correo</h2>
@@ -55,6 +30,31 @@ const SectionMain = () => {
                     <input type="submit" name="" value="Enviar" />
                 </div>
             </form>
+          </div>
+          <div className="contactInfo">
+            <div className="box">
+              <div className="icon">
+                <i className="fa fa-map-marker" aria-hidden="true"></i>
+              </div>
+              <div className="text">
+                <h3>Ubicación</h3>
+                <p>México.</p>
+              </div>
+            </div>
+            <div className="box">
+                <div className="icon"><i className="fa fa-phone" aria-hidden="true"></i></div>
+                <div className="text">
+                    <h3>Teléfono</h3>
+                    <p>+52 554-740-1642</p>
+                </div>
+            </div>
+            <div className="box">
+                <div className="icon"><i className="fa fa-envelope-o" aria-hidden="true"></i></div>
+                <div className="text">
+                    <h3>Email</h3>
+                    <p>camachohorus@gmail.com</p>
+                </div>
+            </div>
           </div>
         </div>
       </section>
