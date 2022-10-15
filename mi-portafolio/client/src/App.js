@@ -7,6 +7,7 @@ import Landing from "./components/Landing";
 import Home from "./components/Home";
 import Profile from "./components/Profile";
 import ProjectDetail from "./components/ProjectDetail";
+import Contact from "./components/Contact";
 
 
 const App = () => {
@@ -17,6 +18,7 @@ const App = () => {
       <Route path="/portafolio" element={<Home />} />
       <Route path="/profile" element={<Profile />} />
       <Route path="/project/:id" element={<ProjectDetail />} />
+      <Route path="/contacto" element={<Contact />}/>
       </Routes>
     </BrowserRouter>
   );
