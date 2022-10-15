@@ -21,15 +21,15 @@ const SectionMain = () => {
                 <p>Pachuca, Hidalgo; México.</p>
               </div>
             </div>
-            <div clasNames="box">
-                <div className="icon"><i class="fa fa-phone" aria-hidden="true"></i></div>
+            <div className="box">
+                <div className="icon"><i className="fa fa-phone" aria-hidden="true"></i></div>
                 <div className="text">
                     <h3>Teléfono</h3>
                     <p>+52 554-740-1642</p>
                 </div>
             </div>
             <div className="box">
-                <div className="icon"><i class="fa fa-envelope-o" aria-hidden="true"></i></div>
+                <div className="icon"><i className="fa fa-envelope-o" aria-hidden="true"></i></div>
                 <div className="text">
                     <h3>Email</h3>
                     <p>camachohorus@gmail.com</p>
